@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1.24.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        AWS.config.update({
+            accessKeyId: '@System.Configuration.ConfigurationManager.AppSettings["AWSAccessKey"]',
+            secretAccessKey: '@System.Configuration.ConfigurationManager.AppSettings["AWSSecretKey"]',
+            sessionToken: '@System.Configuration.ConfigurationManager.AppSettings["AWSSessionToken"]'
+        });
+        AWS.config.region = 'us-east-1';
+
+        function uploadFile() {
+            var s3 = new AWS.S3({
+                params: { Bucket: '@System.Configuration.ConfigurationManager.AppSettings["BucketName"]' }
+            });
+
+            var msg = document.getElementById('shorturl');
+            var file = document.getElementById('file').files[0];
+            if (file) {
+                s3.putObject({
+                    Key: file.name,
+                    ContentType: file.type,
+                    Body: file,
+                    ACL: "public-read"
+                },
+                    function (err, data) {
+                        if (data !== null) {
+                            alert("Uploaded file");
+
+                            var url = "https://csc-talentsphoto.s3.amazonaws.com/" + file.name;
+                            var accessToken = '@System.Configuration.ConfigurationManager.AppSettings["BitlyAccessToken"]';
+                            var params = {
+                                "long_url": url
+                            };
+
+                            $.ajax({
+                                url: "https://api-ssl.bitly.com/v4/shorten",
+                                cache: false,
+                                dataType: "json",
+                                method: "POST",
+                                contentType: "application/json",
+                                beforeSend: function (xhr) {
+                                    xhr.setRequestHeader("Authorization", "Bearer " + accessToken);
+                                },
+                                data: JSON.stringify(params)
+                            }).done(function (data) {
+                                console.log(data);
+                                msg.innerText = "Bit.ly short url: " + data.link;
+                            }).fail(function (data) {
+                                console.log(data);
+                                msg.innerText = "Failed to generate short url";
+                            });
+                        }
+                        else {
+                            alert("Upload failed!");
+                        }
+                    });
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <input type="file" name="file" id="file" value="dataFile" required="">
+    <button onclick="uploadFile()">Upload to S3</button>
+    <p id="shorturl"></p>
+</body>
+</html>
