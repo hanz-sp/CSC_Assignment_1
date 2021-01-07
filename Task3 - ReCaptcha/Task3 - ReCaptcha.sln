@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1300
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3 - ReCaptcha", "Task3 - ReCaptcha\Task3 - ReCaptcha.csproj", "{E04CED57-A9A6-4B47-848F-33CD21351D6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E04CED57-A9A6-4B47-848F-33CD21351D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04CED57-A9A6-4B47-848F-33CD21351D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04CED57-A9A6-4B47-848F-33CD21351D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04CED57-A9A6-4B47-848F-33CD21351D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C661A04E-B570-4AFB-90CE-735DAA19311F}
+	EndGlobalSection
+EndGlobal
