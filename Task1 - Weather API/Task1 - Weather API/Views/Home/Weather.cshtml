@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Weather";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<html>
+<head>
+    <script src="~/Scripts/vkBeautify.js"></script>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <!-- Image loader -->
+    <div id='loader' style='text-align: center; display: none;'>
+        <img src="~/Images/loading 64x64.gif" width='64px' height='64px'>
+    </div>
+    <!-- Image loader -->
+
+    <pre id="weatherinfo"></pre>
+    
+
+    <script>
+        $(function () {
+            getWeather();
+        });
+
+        function getWeather() {
+            $.ajax({
+                url: "https://api.worldweatheronline.com/premium/v1/weather.ashx/?q=Singapore&num_of_days=2&key=3a3093ca2ec740eb8af80913202212 ",
+                method: "GET",
+                datatype: "xml",
+                beforeSend: function () {
+                    // Show image container
+                    $("#loader").show();
+                },
+                complete: function (data) {
+                    // Hide image container
+                    $("#loader").hide();
+                }
+            }).done(function (data) {
+                //Log it to the console
+                console.log(data);
+
+                //Convert XML to String
+                var xmlText = new XMLSerializer().serializeToString(data);
+
+                //Format XML into tree structure
+                var xmlText = vkbeautify.xml(xmlText);
+
+                //Append text to pre element
+                var xmlTextNode = document.createTextNode(xmlText);
+                var parentDiv = document.getElementById('weatherinfo');
+                $('#weatherinfo').empty();
+                parentDiv.appendChild(xmlTextNode);
+            }).fail(function (data) {
+                var error = document.createElement('p');
+                error.innerText = "Error accessing web service";
+
+                var retry = document.createElement('button');
+                retry.id = "#retry_button"
+                retry.innerHTML = 'Retry';
+                retry.onclick = function () {
+                    getWeather();
+                };;
+
+                var parentDiv = document.getElementById('weatherinfo');
+                $('#weatherinfo').empty();
+                parentDiv.appendChild(error);
+                parentDiv.appendChild(retry);
+            });
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\Task5 - Talents Photo.dll.config
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\Task5 - Talents Photo.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\Task5 - Talents Photo.pdb
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\csc.exe
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\csc.exe.config
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\csc.rsp
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\csi.exe
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\csi.exe.config
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\csi.rsp
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.AppContext.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Console.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.IO.Compression.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.IO.Pipes.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Security.Claims.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.ValueTuple.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Xml.XPath.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\vbc.exe
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\vbc.exe.config
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\vbc.rsp
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\VBCSCompiler.exe
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\Antlr3.Runtime.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\AWSSDK.Core.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\AWSSDK.S3.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\Newtonsoft.Json.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Net.Http.Formatting.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.Helpers.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.Http.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.Http.WebHost.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.Mvc.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.Optimization.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.Razor.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.WebPages.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.WebPages.Razor.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\WebGrease.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\AWSSDK.Core.pdb
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\AWSSDK.Core.xml
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\AWSSDK.S3.pdb
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\AWSSDK.S3.xml
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\Newtonsoft.Json.xml
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Net.Http.Formatting.xml
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.Helpers.xml
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.Http.xml
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.Http.WebHost.xml
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.Mvc.xml
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.Optimization.xml
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.Razor.xml
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.WebPages.xml
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\System.Web.WebPages.Razor.xml
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\Antlr3.Runtime.pdb
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\obj\Debug\Task5 - Talents Photo.csprojAssemblyReference.cache
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\obj\Debug\Task5 - Talents Photo.csproj.CoreCompileInputs.cache
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\obj\Debug\Task5 - Talents Photo.csproj.CopyComplete
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\obj\Debug\Task5 - Talents Photo.dll
+C:\Users\cheon\Documents\School\Year 3\Sem 2\CSC\Assignments\Assignment 1\Task5 - Talents Photo\Task5 - Talents Photo\obj\Debug\Task5 - Talents Photo.pdb

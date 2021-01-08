@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        function uploadFile() {
+            var file = document.getElementById('file').files[0];
+            var fd = new FormData();
+            fd.append('file', file);
+            
+            for (var pair of fd.entries()) {
+                console.log(pair[0] + ', ' + pair[1]);
+            }
+
+            var divContainer = document.getElementById("showData");
+            var errorPara = document.createElement("P");
+
+            if (file) {
+                var xhr = new XMLHttpRequest();
+
+                xhr.addEventListener("readystatechange", function () {
+                    if (this.readyState === this.DONE) {
+                        console.log(this.responseText);
+                        var resText = JSON.parse(this.responseText);
+                        var res = resText.result[0].prediction;
+                        if (resText.message.localeCompare("Success") == 0 && res.length > 0) {
+                            
+                            //var res = resResult.prediction;
+                            console.log(res);
+
+                            for (var i = 0; i < res.length; i++) {
+                                var obj = res[i];
+                                delete obj.xmin;
+                                delete obj.ymin;
+                                delete obj.xmax;
+                                delete obj.ymax;
+                                delete obj.score;
+                                delete obj.type;
+                                delete obj.cells;
+                            }
+
+                            // Array to keep track of duplicates
+                            var dups = [];
+                            var arr = res.filter(function (el) {
+                                // If it is not a duplicate, return true
+                                if (dups.indexOf(el.label) == -1 && el.label != "") {
+                                    dups.push(el.label);
+                                    return true;
+                                }
+
+                                return false;
+
+                            });
+                            console.log(arr);
+
+                            // EXTRACT VALUE FOR HTML HEADER. 
+                            var col = [];
+                            for (var i = 0; i < arr.length; i++) {
+                                for (var key in arr[i]) {
+                                    if (col.indexOf(key) === -1) {
+                                        col.push(key);
+                                    }
+                                }
+                            }
+
+                            // CREATE DYNAMIC TABLE.
+                            var table = document.createElement("table");
+
+                            // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
+
+                            var tr = table.insertRow(-1);                   // TABLE ROW.
+
+                            for (var i = 0; i < col.length; i++) {
+                                var th = document.createElement("th");      // TABLE HEADER.
+                                th.innerHTML = col[i];
+                                tr.appendChild(th);
+                            }
+
+                            // ADD JSON DATA TO THE TABLE AS ROWS.
+                            for (var i = 0; i < arr.length; i++) {
+
+                                tr = table.insertRow(-1);
+
+                                for (var j = 0; j < col.length; j++) {
+                                    var tabCell = tr.insertCell(-1);
+                                    tabCell.innerHTML = arr[i][col[j]];
+                                }
+                            }
+
+                            // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
+                            table.style.width = '50%';
+                            table.style.margin = '20px';
+                            divContainer.innerHTML = "";
+                            divContainer.appendChild(table);
+                        } else {
+                            // ADD ERROR
+                            errorPara.innerText = "This image is not detected as a receipt. Please select another image.";
+                            divContainer.innerHTML = "";
+                            divContainer.appendChild(errorPara);
+                        }
+
+                    }
+                });
+
+                xhr.open("POST", "https://cors-anywhere.herokuapp.com/https://app.nanonets.com/api/v2/OCR/Model/634e003b-fdf7-407b-93ad-f9fb54a59770/LabelFile/");
+                xhr.setRequestHeader("authorization", "Basic " + btoa("DabkDzCeeygUuprbLSEjNnUnhj3Ij4_l:"));
+                xhr.send(fd);
+
+            } else {
+                // ADD ERROR
+                errorPara.innerText = "The uploaded image is not valid. Please select another image.";
+                divContainer.innerHTML = "";
+                divContainer.appendChild(errorPara);
+            }
+
+        };
+    </script>
+</head>
+<body>
+    <input type="file" name="file" id="file" value="dataFile" accept="image/*" required="">
+    <button onclick="uploadFile()">Scan receipt</button>
+    <p id="showData"></p>
+</body>
+</html>
